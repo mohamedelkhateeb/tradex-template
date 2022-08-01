@@ -1,0 +1,38 @@
+
+
+@media (min-width: 992px) { 
+    .about-section .left-content {
+        position: absolute;
+        width: 35% !important;
+    }
+    .about-section img {
+    width: 274%;
+    height: 590px;
+    }
+    .services-section .item {
+        width: 30%;
+    }
+    .carousel-indicators {
+        position: absolute;
+    bottom: 40%;
+    left: 77%;
+    z-index: 2;
+    display: flex;
+    transform: rotate(90deg);
+    width: 100px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+    .services-section .item {
+        width: 45%;
+    }
+}
+@media (max-width: 768px) {
+    .services-section .item {
+        width: 100%;
+        margin-left:0 ;
+        margin-right: 0;
+    }
+}
