@@ -14,13 +14,16 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+
+
 function Validation() {
     var valid = true;
     var name = document.valForm.name.value;
-    var inp =document.getElementsByTagName('input')
+    var formLabel =document.getElementsByTagName("label")
     if(name == "") {
-        inp.style.border = '1px solid red'
-        valid = false
+        formLabel.style.color = "red"
+        formLabel.style.display = "block"
+        valid = false;
     }
     return valid
 }
