@@ -476,3 +476,193 @@ font-size: 10px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
 }
+
+.latest-section {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.latest-section .icons {
+    width: 12%;
+    color: white;
+    background-color: #1A1A1A;
+}
+
+.latest-section .icons i {
+    padding: 25px;
+}
+
+.latest-section .img img {
+    width: 100%;
+    transition: .5s ease-in-out;
+}
+
+
+.latest-section .img {
+    overflow: hidden;
+}
+
+.latest-section  .col:hover img {
+    transform: scale(1.6) rotate(25deg);
+}
+
+.latest-section .col .shadow--{
+    box-shadow: 1px 1px 6px 2px #00000078 ;
+}
+
+.latest-section .content {
+    width: 100%;
+    padding: 5%;
+} 
+
+.latest-section .content a:hover i{
+    padding-left: 3px;
+    color: #0d6efd;
+}
+.latest-section .content a {
+    color: black;
+    text-decoration: none;
+}
+.latest-section .col .progress-bar {
+    width: 25%;
+    transition: 1s ;
+}
+
+.latest-section .content .progress  {
+    height: 2px;
+}
+
+.latest-section .col:hover .icons{
+    background-color: var(--blue-color);
+    transition: .5s;
+}
+
+.latest-section .col:hover .progress-bar {
+    width: 100%;
+}
+
+.latest-section .col  a:hover {
+    color: var(--blue-color);
+}
+
+.Clients-section .row .images-- img {
+    width: 100%;
+    height: 100%;
+}
+
+.Clients-section {
+    padding: 3rem 0;
+}
+
+.Clients-section .row .images-- {
+    border: 1px solid #0000004a;
+    padding: 2rem 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.Clients-section .col-4 img {
+    height: 113%;
+}
+
+.ads {
+    padding: 3rem 0; 
+}
+
+.ads i {
+    position: absolute;
+    font-size: 6rem;
+    color: white;
+    opacity: 0.2;
+    top: -25px;
+}
+
+.ads .col h1 {
+    color: white;
+    font-size: 2.1rem;
+}
+
+
+footer {
+    padding: 3rem ;
+    background-color: #1A1A1A;
+}
+
+footer .col .img- {
+    width: 25%;
+}
+
+footer .col .img- img {
+    width: 100%;
+    height: 77%;
+} 
+
+footer hr {
+    width: 16%;
+    background-color: #0d6efd;
+    height: 2px;
+    opacity: 1;
+    margin: 1.4rem 0;
+}
+
+footer .btns a button {
+    margin: 6px;
+    transition: .5s;
+} 
+
+footer .btns a button:hover {
+    background-color: var(--blue-color) !important;
+}
+
+.home-contact h1 {
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-validation .des i {
+    font-size: 2rem;
+    color: var(--blue-color);
+    padding: 30px 0;
+}
+
+.form-validation .des h4 {
+    padding-bottom: 20px;
+}
+
+.form-validation .des h6 {
+    color: rgba(0, 0, 0, 0.582);
+}
+
+
+.myForm {
+    padding: 5rem 0;
+}
+
+.myForm form input {
+    border: 0;
+    border-bottom: 1px solid #0000004a;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin: 20px;
+    position: relative;
+}
+
+.myForm form textarea {
+    border: 0;
+    border-bottom: 1px solid #0000004a;
+    outline: none;
+    padding: 10px;
+    width: 88%;
+    margin: 20px;
+}
+
+.myForm .alert {
+    color: red;
+    position: absolute;
+}
+

@@ -1,5 +1,15 @@
 
 
+@media (max-width: 1200px) {
+    .Clients-section .row .img- img {
+        display: none;
+    }
+    .ads i {
+        display: none;
+        text-align: center;
+    }
+}
+
 @media (min-width: 992px) { 
     .about-section .left-content {
         position: absolute;
@@ -20,6 +30,9 @@
     display: flex;
     transform: rotate(90deg);
     width: 100px;
+    }
+    .myForm form input {
+        width: 29% !important;
     }
 }
 

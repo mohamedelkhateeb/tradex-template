@@ -13,3 +13,14 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function Validation() {
+    var valid = true;
+    var name = document.valForm.name.value;
+    var inp =document.getElementsByTagName('input')
+    if(name == "") {
+        inp.style.border = '1px solid red'
+        valid = false
+    }
+    return valid
+}
